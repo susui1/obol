@@ -1,0 +1,20 @@
+Automatic Installation :
+———————-
+
+source <(curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/lava/lava-testnet-1/install.sh)
+
+——————
+#create wallet :
+———————-
+
+
+lavad keys add wallet
+
+
+———————————-
+ #SAVE SEED PHRASE 
+——————————
+#SAVE PRIVATE VALIDATOR KEY :
+—————————————-
+
+cat $HOME/.lava/config/priv_validator_key.json
